@@ -30,12 +30,11 @@ h2 {
   padding: 28px;
 }
 
-#contactForm1{
+form {
   text-align: center;
   display: block;
   width: 100%;
   font-size: 2rem;
-
 }
 
 div {

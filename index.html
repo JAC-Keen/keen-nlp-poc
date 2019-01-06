@@ -9,10 +9,9 @@
   <body>
     <h1>Feedback Form</h1>
     <h2>How was your experience today?</h2>
-    
     <form id="contactForm1" action="https://us-central1-keen-nth-poc.cloudfunctions.net/function-anthem-dupe"  method="POST">
       <input type="text" id="s" placeholder="Feedback..">
-      <input type="submit" value="Submit">
+      <input id="submit" type="submit" value="Submit">
     </form>
 
     <div id="thankyou" style="display:none"><p>Thank you for your Feedback!</p></div>
@@ -34,12 +33,14 @@
         });
       });
 
-      // Hides Form after submit
+      // $('#submit').click(function(){
+      //  alert('Thank you for submitting your feedback!');
+      // });
+
       $("#submit").click(function(){
         $("#s").hide();
       });
 
-      // Displays Thank you for your feedback
       $("#submit").click(function(){
         $("#thankyou").show();
       });
