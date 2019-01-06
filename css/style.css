@@ -44,3 +44,8 @@ div {
   text-align: center;
   width: 100%;
 }
+
+#thankyou {
+  text-align: center;
+  padding: 200px;
+}

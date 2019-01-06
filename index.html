@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>post request demo</title>
+  <title>post demo</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
   <body>
     <h1>Feedback Form</h1>
     <h2>How was your experience today?</h2>
+    
     <form id="contactForm1" action="https://us-central1-keen-nth-poc.cloudfunctions.net/function-anthem-dupe"  method="POST">
       <input type="text" id="s" placeholder="Feedback..">
       <input type="submit" value="Submit">
     </form>
+
+    <div id="thankyou" style="display:none"><p>Thank you for your Feedback!</p></div>
 
     <script type="text/javascript">
       var frm = $('#contactForm1');
@@ -30,6 +33,17 @@
             }
         });
       });
+
+      // Hides Form after submit
+      $("#submit").click(function(){
+        $("#s").hide();
+      });
+
+      // Displays Thank you for your feedback
+      $("#submit").click(function(){
+        $("#thankyou").show();
+      });
+
     // Forced Ajax Test
     // $.ajax({
     //   type: "post",
@@ -41,6 +55,7 @@
     //   success: function(data){ alert(data); },
     //   failure: function(data){ alert(data); }
     // });
+
     </script>
   </body>
   <div id="shoes" align="center">
