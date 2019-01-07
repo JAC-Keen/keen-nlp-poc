@@ -17,8 +17,8 @@ body, html {
   font-weight: 100;
   font-size: 28px;
   line-height: 30px;
-  color: white;
-  background: #00b0eb;
+  color: black;
+  background: white;
   padding-top: 100px;
 }
 
@@ -57,4 +57,13 @@ div {
   box-shadow: $shadow;
   padding: 10px;
   font-size: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:100px;
+  width:275px;
 }
