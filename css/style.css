@@ -17,7 +17,7 @@ body, html {
   font-weight: 100;
   font-size: 28px;
   line-height: 30px;
-  color: black;
+  color: #889caf;
   background: white;
   padding-top: 100px;
 }
@@ -60,10 +60,10 @@ div {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height:100px;
-  width:275px;
+  display: block; !important
+  margin-left: auto; !important
+  margin-right: auto; !important
+  width: 50%; !important
+  height:100px; !important
+  width:275px; !important
 }
