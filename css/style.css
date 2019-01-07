@@ -60,10 +60,10 @@ div {
 }
 
 .center {
-  display: block; !important
-  margin-left: auto; !important
-  margin-right: auto; !important
-  width: 50%; !important
-  height:100px; !important
-  width:275px; !important
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height:100px;
+  width:275px;
 }
