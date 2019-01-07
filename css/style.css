@@ -19,7 +19,6 @@ body, html {
   line-height: 30px;
   color: #889caf;
   background: white;
-  padding-top: 100px;
 }
 
 h1, h2{
@@ -36,6 +35,7 @@ form {
   width: 100%;
   font-size: 2rem;
 }
+
 
 div {
   position: absolute;
@@ -66,4 +66,12 @@ div {
   width: 50%;
   height:100px;
   width:275px;
+}
+
+h1, h2, form {
+  padding-top: 40px;
+}
+#s:hover {
+  background-color: #00b0eb;
+  transition: background-color 0.8s ease;
 }
