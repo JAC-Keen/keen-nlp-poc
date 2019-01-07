@@ -76,3 +76,7 @@ h1, h2, form {
   background-color: #00b0eb;
   transition: background-color 0.8s ease;
 }
+
+#shoes {
+  font-size: 14px; !important
+}
